@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="header">Todo List</h1>
+    </div>
+    <div class="container">
+      <ul id="list"></ul>
+      <button id="add-task-button">Add Task</button>
+      <div id="task-form-div" class="hide">
+        <form class="task-form">
+          <label for="title">Title: </label>
+          <input autocomplete="off" name="title" id="title" type="text" />
+          <label for="desc">Description: </label>
+          <textarea autocomplete="off" name="desc" id="desc"></textarea>
+          <br />
+          <div class="add-cancel-button">
+            <button id="add-button">Add</button>
+            <button type="button" id="cancel-button">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
